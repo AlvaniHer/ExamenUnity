@@ -90,7 +90,7 @@ public class MovJugador : MonoBehaviour
         void Victoria()
         {
             // Cargar la escena de victoria
-            SceneManager.LoadScene("Victoria"); // Cambia por el nombre de tu escena
+            SceneManager.LoadScene("Victoria"); 
         }
         public void Salir()
         {
