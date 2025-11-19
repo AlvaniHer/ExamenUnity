@@ -62,18 +62,18 @@ public class MovJugador : MonoBehaviour
                 GameManager.instance.SumarPuntos(1);
                 Destroy(collision.gameObject);
             }
-            // Si toca un enemigo
+           
             if (collision.gameObject.tag == "Enemigo")
             {
               
                 ReiniciarNivel();
             }
-            //cuando llega a la bandera 
+           
             if (collision.gameObject.tag == "Fin")
             {
                 Victoria();
             }
-            //Al caer
+            
             if (collision.CompareTag("SueloMuerte"))
             {
                 UnityEngine.SceneManagement.SceneManager.LoadScene(
