@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Botones:MonoBehaviour
+public class Botones : MonoBehaviour
 {
 
     // Método para iniciar el juego
@@ -11,7 +11,7 @@ public class Botones:MonoBehaviour
         SceneManager.LoadScene("Nivel1"); //Nivel principal 
     }
 
-    
+
     // Método para salir del juego
     public void Salir()
     {
